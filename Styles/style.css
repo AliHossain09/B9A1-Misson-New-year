@@ -1,5 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-.container{
+*{
+    margin-bottom: 40px;
+    font-family:  "Kanit", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/* header section start */
+.discount-container {
     background-image: url(../resources/Banner\ Image.png);
     border-radius: 14px;
     background-size: contain;
@@ -10,26 +19,226 @@
 
 }
 
-.photo{
+.photo {
     text-align: center;
     color: white;
     padding: 90px;
-    background: linear-gradient(rgba(0, 0, 0, 0.788) , rgba(255, 255, 255, 0));
+    background: linear-gradient(rgba(0, 0, 0, 0.788), rgba(255, 255, 255, 0));
 }
-.photo h2{
+
+.photo h2 {
     font-size: 100px;
 }
 
-.color{
+/* header section end */
+
+/* main section start */
+
+.color {
     color: red;
 }
 
-.content{
-font-size: 85px;
+.content {
+    font-size: 85px;
 }
 
-.photo-2{
-        text-align: center;
+.photo-2 {
+    text-align: center;
     color: white;
-    padding: 90px;
+
+}
+
+.header {
+    text-align: center;
+}
+
+.header h2 {
+    padding: 0px 0px 19px;
+    width: 959px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 35px;
+    color: #000;
+}
+
+.header img {
+    margin: 0 auto;
+    width: 600px;
+}
+
+.discount {
+    margin-bottom: 30px;
+}
+
+/*  */
+
+.party-container {
+    background-image: url(../resources/Vectorrr.png);
+    background-size: contain;
+    width: 1100px;
+    height: 500px;
+    margin: 0 auto;
+    border-radius: 7px;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.party-container-2 {
+    display: flex;
+    padding: 30px 100px;
+    background: linear-gradient(50deg, rgba(0, 0, 0, 0.788), rgba(255, 255, 255, 0));
+}
+
+.party-title {
+    color: #FFFFFF;
+
+
+    margin: 80px;
+}
+
+.party-title h2 {
+    font-size: 70px;
+    font-family: cursive;
+}
+
+.party-des {
+    color: #FFFFFFCC;
+}
+
+.party-img img {
+    width: 320px;
+}
+
+/* my info */
+
+.my-info{
+    width: 1140px;
+    margin: 0 auto;
+    border-radius: 7px;
+    margin-top: 30px;
+    background: linear-gradient(#FF00001A , #ffffff00);
+}
+
+.info{
+    padding: 20px;
+    text-align: center;
+}
+
+.my-info .info button {
+    color: white;
+    background: #FF0000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.info-btn{
+    cursor: pointer;
+}
+
+.info-question{
+    color: #FF0000;
+}
+
+
+.Coming-Soon{
+    margin: 90px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    width: 1140px;
+}
+.Coming-Soon-title h2{
+    font-size: 70px;
+}
+
+.Coming{
+    padding: 20px;
+    width: 380px;
+}
+.Coming1{
+    padding: 20px;
+    width: 380px;
+}
+.Coming2{
+    padding: 20px;
+    width: 380px;
+}
+
+.Coming-Soon-photo-border{
+    border-radius: 100%;
+    border: 10px solid #FF0000;
+}
+
+/* holyday section */
+
+.holiday{
+    width: 1140px;
+    margin: 0 auto;
+    margin-top: 50px;
+
+}
+
+.holiday-title{
+    text-align: center;
+}
+
+.holiday-title h2{
+    font-size: 60px;
+}
+
+.holiday-images{
+    position: relative;
+    height: 600px;
+}
+
+.holiday-img-1{
+    position: absolute;
+    bottom: 0px;
+    width: 1140px;
+}
+.holiday-img-2{
+    position: absolute;
+    right: 0px;
+    top: 57px;
+    width: 30%;
+
+}
+.holiday-img-3{
+    position: absolute;
+    right: 389px;
+}
+.holiday-img-4{
+    position: absolute;
+    width: 24%;
+    right: 224px;
+    top: 100px;
+}
+
+/* Gifts section */
+
+.gift-section{
+    width: 1140px;
+    border: 3px solid #FF0000;
+    margin: 0 auto;
+}
+
+.gift-img{
+    width: 190px;
+    display: flex;
+    margin: 0 auto;
+    margin: 20px;
+}
+
+.gift-images{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.gift-title h5 {
+font-size: 40px;
 }
